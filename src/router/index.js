@@ -21,6 +21,11 @@ const routes = [
         component: () => import(/* webpackChunkName: " AttackOnTitan" */ '../views/giant/AttackOnTitan.vue'),
       }
     ]
+  },
+  {
+    path: '/Announcepage',
+    name: 'AnnouncePage',
+    component: () => import('../views/AnnouncePage.vue'),
   }
 ]
 
